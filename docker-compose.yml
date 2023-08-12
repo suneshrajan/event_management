@@ -1,0 +1,22 @@
+version: '3.10'
+services:
+ web:
+  build: .
+  volumes:
+   - .:/eventmanagement
+  ports:
+   - 8000:8000
+  depends_on:
+   - db
+  environment:
+   DJANGO_DB_HOST: db
+  image: app:eventmanagement
+  container_name: em_django_container
+  command: python manage.py runserver 0.0.0.0:8000
+
+ db:
+  image: postgres
+  environment:
+   POSTGRES_DB: ema
+   POSTGRES_USER: ema
+   POSTGRES_PASSWORD: ema
