@@ -1,0 +1,10 @@
+django
+python-decouple
+psycopg2-binary
+djangorestframework
+djangorestframework_simplejwt
+django-cors-headers
+markdown
+django-filter
+drf-yasg
+pylint
