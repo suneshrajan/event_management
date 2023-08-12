@@ -3,7 +3,7 @@ __pycache__/
 env/
 staticfiles/
 media/
-migrations/
+# migrations/
 
 # Django development files
 *.sqlite3

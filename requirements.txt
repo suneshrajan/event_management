@@ -4,6 +4,7 @@ psycopg2-binary
 djangorestframework
 djangorestframework_simplejwt
 django-cors-headers
+django-use-email-as-username
 markdown
 django-filter
 drf-yasg

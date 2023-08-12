@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "drf_yasg",
+    "django_use_email_as_username.apps.DjangoUseEmailAsUsernameConfig",
     # Installed Apps
     "apps.accounts",
     "apps.events",
