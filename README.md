@@ -25,4 +25,20 @@ Authorize
 
 - please provide your AUTH-TOEN to Authorize swagger function (**format: Token {YOUR TOKEN}**) for further api access.
 
+Dockerize
+---------
+
+- 1. **sudo docker-compose build** -> compose and build.
+
+- 2. **docker-compose run web python3 manage.py migrate** -> migrate migrations.
+
+- 3. **sudo docker-compose up** -> run container
+
+DB - Connection
+---------------
+
+- Db configure in **.env** file
+
+- Make sure to change host name to **localhost** while wrking with local db connection.
+
 **Thankyou**
